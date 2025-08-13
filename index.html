@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meghna Sahni | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">Meghna Sahni</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="toggle navigation">&#9776;</button>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Hello, I'm <span>Meghna</span></h2>
+      <p class="tagline">Designer &amp; Developer crafting delightful digital experiences.</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I'm Meghna Sahni, a creative professional passionate about building clean and engaging user experiences. I enjoy turning complex problems into simple, beautiful designs.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="https://via.placeholder.com/400x300" alt="Project one screenshot" />
+          <h3>Project One</h3>
+          <p>Brief description of the project highlighting tools and impact.</p>
+        </div>
+        <div class="project-card">
+          <img src="https://via.placeholder.com/400x300" alt="Project two screenshot" />
+          <h3>Project Two</h3>
+          <p>Another project summary showcasing problem solving and design.</p>
+        </div>
+        <div class="project-card">
+          <img src="https://via.placeholder.com/400x300" alt="Project three screenshot" />
+          <h3>Project Three</h3>
+          <p>Describe the third project or case study in a sentence or two.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Meghna Sahni</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
