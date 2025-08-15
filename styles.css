@@ -108,10 +108,24 @@ section {
   gap: 2rem;
 }
 
+.project-card {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 .project-card img {
   width: 100%;
   border-radius: 4px;
   height: auto;
+}
+
+.project-card h3 {
+  margin-top: 0.5rem;
+}
+
+.project-card p {
+  margin-bottom: 0;
 }
 
 .contact-form {
